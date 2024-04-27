@@ -1,0 +1,23 @@
+@import '../../styles.scss';
+
+footer {
+  height: 12rem;
+  display: flex;
+  align-content: center;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contacts {
+      display: flex;
+      gap: 1.6rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+      color: $text;
+    }
+  }
+}

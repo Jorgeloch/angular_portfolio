@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+$base: #1e1e2e;
+$mantle: #181825;
+$text: #cdd6f4;
+$red: #f38ba8;
+$green: #a6e3a1;
+$mauve: #cba6f7;
+$blue: #89b4fa;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 62.5%;
+}
+
+.base-bg {
+  background-color: $base;
+}
+
+.mantle-bg {
+  background-color: $mantle;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 80%;
+  max-width: 112rem;
+  margin: 0 auto;
+}
