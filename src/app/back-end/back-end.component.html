@@ -1,0 +1,10 @@
+<section class="back-end-section">
+  <h2>back-end</h2>
+  <div class="languages_grid">
+    @for (language of languages; track language.id) {
+      <app-language-tile [language]="language"></app-language-tile>
+    } @empty {
+      <p>No back-end languages found</p>
+    }
+  </div>
+</section>

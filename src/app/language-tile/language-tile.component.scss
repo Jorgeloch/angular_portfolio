@@ -1,0 +1,23 @@
+@import '../../styles.scss';
+
+.tile {
+  border: 0.4rem solid $mauve;
+  border-radius: 0.8rem;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    height: 8rem;
+    color: $mauve;
+  }
+
+  p {
+    padding-top: 1.6rem;
+    color: $text;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+}
