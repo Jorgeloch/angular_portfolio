@@ -1,0 +1,13 @@
+@import '../../styles.scss';
+
+h2 {
+  color: $mauve;
+  font-size: 4.4rem;
+}
+
+.languages_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
